@@ -216,7 +216,7 @@ const Index = () => {
               className="text-base"
               asChild
             >
-              <a href="t.me/shhimitsu" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/shhimitsu" target="_blank" rel="noopener noreferrer">
                 Join our Telegram
               </a>
             </Button>
@@ -250,7 +250,7 @@ const Index = () => {
             
             <div className="flex gap-6">
               <a 
-                href="t.me/shhimitsu" 
+                href="https://t.me/shhimitsu" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
