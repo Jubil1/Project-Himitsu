@@ -34,17 +34,24 @@ const Index = () => {
             Unlock premium content. Stay anonymous. Built on blockchain for ultimate privacy.
           </p>
           
-          <Button 
-            variant="hero" 
-            size="lg"
-            className="text-lg px-10 py-6 h-auto shadow-glow-primary"
-            asChild
-          >
-            <a href="https://pump.fun" target="_blank" rel="noopener noreferrer">
-              Buy on pump.fun
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </a>
-          </Button>
+          <div className="flex flex-col items-center gap-4">
+            <Button 
+              variant="hero" 
+              size="lg"
+              className="text-lg px-10 py-6 h-auto shadow-glow-primary"
+              asChild
+            >
+              <a href="https://pump.fun" target="_blank" rel="noopener noreferrer">
+                Buy on pump.fun
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </a>
+            </Button>
+
+            {/* CA Placeholder added here */}
+            <div className="text-sm text-muted-foreground font-mono tracking-wider bg-card/30 px-4 py-1 rounded-md border border-primary/10">
+              CA: ----
+            </div>
+          </div>
         </div>
         
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
@@ -209,7 +216,7 @@ const Index = () => {
               className="text-base"
               asChild
             >
-              <a href="https://t.me/himitsu" target="_blank" rel="noopener noreferrer">
+              <a href="t.me/shhimitsu" target="_blank" rel="noopener noreferrer">
                 Join our Telegram
               </a>
             </Button>
@@ -220,7 +227,7 @@ const Index = () => {
               className="text-base"
               asChild
             >
-              <a href="https://twitter.com/himitsu" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/i/communities/1991400720667390427" target="_blank" rel="noopener noreferrer">
                 Follow us on X
               </a>
             </Button>
@@ -243,7 +250,7 @@ const Index = () => {
             
             <div className="flex gap-6">
               <a 
-                href="https://t.me/himitsu" 
+                href="t.me/shhimitsu" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -251,7 +258,7 @@ const Index = () => {
                 Telegram
               </a>
               <a 
-                href="https://twitter.com/himitsu" 
+                href="https://x.com/i/communities/1991400720667390427" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
