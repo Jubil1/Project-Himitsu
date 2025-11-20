@@ -49,7 +49,7 @@ const Index = () => {
 
             {/* CA Placeholder added here */}
             <div className="text-sm text-muted-foreground font-mono tracking-wider bg-card/30 px-4 py-1 rounded-md border border-primary/10">
-              CA: 
+              CA: 7ywrxzAp8CwgB94pQdiP8jBeb3LNaF1FXxkiEF4Gpump
             </div>
           </div>
         </div>
